@@ -9,14 +9,35 @@ def decouper_en_mots(un_morceau_de_texte):
     return mots_separes  # Retourner la liste de mots
 
 # Chemin d'accès du texte
-chemin_du_texte = "../data/1907_Leblanc-Maurice_Arsene-Lupin-gentleman-cambrioleur.txt"
+chemin_du_texte = "../data/txt/1907_Leblanc-Maurice_Arsene-Lupin-gentleman-cambrioleur.txt"
 
 # Nombre de mots les plus fréquents à afficher
 nombre_de_mots_voulu = 40
 
 # Liste des mots vides à exclure
-mots_vides = [
-    # ... (liste complète des mots vides)
+mots_vides = ['je', 'tu', 'il', 'elle', 'on', 'nous', 'vous', 'ils', 'elles',
+    'le', 'la', 'les', 'un', 'une', 'des', 'mon', 'ma', 'mes', 'ton', 'ta', 'tes',
+    'son', 'sa', 'ses', 'notre', 'votre', 'leurs', 'de', 'du', 'l', 'à', 'au', 'aux', 'en', 'par', 'pour', 'avec',
+    'sur', 'sous', 'dans', 'vers', 'contre', 'à travers', 'après', 'avant', 'pendant',
+    'alors', 'quand', 'si', 'comme', 'parce que', 'parce', 'mais', 'ou', 'et', 'donc',
+    'si', 'car', 'lorsque', 'puisque', 'qu', 'quel', 'quelle', 'quels', 'quelles',
+    'ainsi', 'autant', 'autre', 'autres', 'celui', 'celle', 'ceux', 'celles',
+    'chaque', 'ci', 'ça', 'cela', 'ce', 'ceci', 'celui-ci', 'celle-ci',
+    'celui-là', 'celle-là', 'cent', 'certain', 'certaine', 'certaines', 'certains',
+    'ceux-ci', 'ceux-là', 'chaque', 'combien', 'comme', 'd', 'dans', 'des', 'du', 'deux',
+    'devant', 'donc', 'dont', 'duquel', 'elle', 'elles', 'en', 'encore', 'entre',
+    'envers', 'est', 'et', 'eu', 'eux', 'fin', 'fut', 'hormis', 'hui', 'huit', 'ici',
+    'il', 'ils', 'je', 'jusque', 'l', 'la', 'le', 'les', 'leur', 'leurs', 'lors',
+    'lui', 'là', 'ma', 'mais', 'me', 'même', 'mes', 'moi', 'moins', 'mon', 'ne', 'ni',
+    'nombreuses', 'nombreux', 'notre', 'nous', 'ou', 'où', 'par', 'parmi', 'pas',
+    'peu', 'plus', 'plupart', 'pour', 'pourquoi', 'quand', 'que', 'quel', 'quelle',
+    'quelles', 'quels', 'qui', 'quoi', 'sa', 'sans', 'se', 'sept', 'ses', 'si',
+    'sien', 'soi', 'soit', 'son', 'sont', 'sous', 'soyez', 'sujet', 'sur', 'ta',
+    'tandis', 'te', 'tel', 'telle', 'telles', 'tels', 'tes', 'toi', 'ton', 'tous',
+    'tout', 'toute', 'toutes', 'un', 'une', 'va', 'vers', 'voici', 'voilà', 'vont',
+    'votre', 'vous', 'vu', 'ça', 's', 'n', 'c', 'a', 'm', 'j', 'y', 't', 'ces', 
+    'dit', 'cet', 'oui', 'non', 'était', 'est', 'être', 'été', 'ai', 'puis', 'avez', 
+    'avait', 'avais', 'eût', 'très', 'cette', 'point', 'fois', 'fit', 'aussi', 'suis' 
 ]
 
 # Lire le texte complet depuis le fichier
