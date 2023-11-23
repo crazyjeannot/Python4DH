@@ -22,18 +22,20 @@ Repository pour le cours M1 HN de l'École des Chartes S1
 ## Séance 05 - Pandas Avancé et Complexité Algorithmique
 - Fonctionnalités avancées de Pandas.
 - Compréhension de la complexité algorithmique.
-
-## Séance 06 - Traitement de Texte - Notions de Base et Expressions Régulières
-- Introduction au traitement de texte en Python.
-- Utilisation des expressions régulières et de la bibliothèque NLTK.
-
-## Séance 07 - Collecte de Données - Scraping et Formats de Données
+- 
+## Séance 06 - Collecte de Données - Scraping et Formats de Données
 - Techniques de collecte de données, notamment le scraping.
 - Exploration des différents formats de données.
+
+## Séance 07 - Traitement de Texte - Notions de Base et Expressions Régulières
+- Introduction au traitement de texte en Python.
+- Utilisation des expressions régulières et de la bibliothèque NLTK.
 
 ## Séances 08 & 09 - Traitement de Texte Avancé - Mise en Pratique
 - Approfondissement des techniques de traitement de texte.
 - Application pratique sur des cas concrets.
 
-## Séance 10 - À Discuter
+## Séance 10 - POO et Libre
+- Programmation Orientée Object
 - Sujets à discuter en fonction des besoins du groupe et des avancées du cours.
+- SIG en Python ? 
