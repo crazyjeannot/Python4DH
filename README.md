@@ -27,11 +27,11 @@ Repository pour le cours M1 HN de l'École des Chartes S1
 - Techniques de collecte de données, notamment le scraping.
 - Exploration des différents formats de données.
 
-## Séance 07 - Traitement de Texte - Notions de Base et Expressions Régulières
-- Introduction au traitement de texte en Python.
+## Séance 07 - Analyse Textuelle - Notions de Base et Expressions Régulières
+- Introduction à l'analyse textuelle en Python.
 - Utilisation des expressions régulières et de la bibliothèque NLTK.
 
-## Séances 08 & 09 - Traitement de Texte Avancé - Mise en Pratique
+## Séances 08 & 09 - Analyse Textuelle Avancé - Mise en Pratique
 - Approfondissement des techniques de traitement de texte.
 - Application pratique sur des cas concrets.
 
