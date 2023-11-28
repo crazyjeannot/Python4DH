@@ -31,9 +31,9 @@ Repository pour le cours M1 HN de l'École des Chartes S1
 - Introduction à l'analyse textuelle en Python.
 - Utilisation des expressions régulières et de la bibliothèque NLTK.
 
-## Séances 08 & 09 - Analyse Textuelle Avancé - Mise en Pratique
+## Séances 08 & 09 - Analyse Textuelle Avancée - Mise en Pratique
 - Approfondissement des techniques de traitement de texte.
-- Application pratique sur des cas concrets.
+- Application pratique sur des textes littéraires.
 
 ## Séance 10 - POO et Libre
 - Programmation Orientée Object
