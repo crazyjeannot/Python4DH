@@ -22,7 +22,7 @@ Repository pour le cours M1 HN de l'École des Chartes S1
 ## Séance 05 - Pandas Avancé et Complexité Algorithmique
 - Fonctionnalités avancées de Pandas.
 - Compréhension de la complexité algorithmique.
-- 
+
 ## Séance 06 - Collecte de Données - Scraping et Formats de Données
 - Techniques de collecte de données, notamment le scraping.
 - Exploration des différents formats de données.
