@@ -37,5 +37,5 @@ Repository pour le cours M1 HN de l'École des Chartes S1
 - Construire et exécuter des modules Python
   
 ## Séance 10 - Révisions et +
+- Correction du dernier Quizz. Rappels généraux avant l'examen
 - Sujets à discuter en fonction des besoins du groupe et des avancées du cours.
-- SIG en Python ? 
